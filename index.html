@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>API</title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 90vh;
+                background-color: rgb(31, 135, 184);
+            }
+            .weather{
+                border: 2px solid #000;
+                border-radius: 5px;
+                background-color: aliceblue;
+                padding: 10px;
+                text-align: center;
+            }
+            .weather h3{
+                font-size: 25px;
+                color: rgb(0, 10, 9);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="weather">
+            <h3>Weather application</h3>
+            <input type="text" placeholder="Search country">
+            <button onclick="search()">search</button>
+            <p class="name"></p>
+            <img src="">
+            <p class="temp"></p>
+            <p class="desc"></p>
+            <p class="ws"></p>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
